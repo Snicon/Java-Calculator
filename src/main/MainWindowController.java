@@ -43,7 +43,7 @@ public class MainWindowController {
     void onSymbolClicked(MouseEvent event) {
         // Similar to the "value" variable in onNumberClicked(). -> Sense what symbol is clicked. -> run relevant code.
         String symbol = ((Pane)event.getSource()).getId().replace("btn", "");
-        System.out.println("Symbol is: " + symbol);
+        // DEBUG: System.out.println("Symbol is: " + symbol);
         if(symbol.equals("Equals")) {
             double num2 = Double.parseDouble(lblResult.getText());
             switch (operator) {
@@ -51,6 +51,9 @@ public class MainWindowController {
                 case "-" -> lblResult.setText((num1-num2) + "");
                 case "*" -> lblResult.setText((num1*num2) + "");
                 case "/" -> lblResult.setText((num1/num2) + "");
+                case "^" -> lblResult.setText((Math.pow(num1, num2)) + "");
+                case "√" -> lblResult.setText(String.valueOf(Math.round(Math.pow(num1, 1.0 / num2))));
+                case "%" -> lblResult.setText(Math.round((num1/num2) * 100) + "%");
             }
             operator = ".";
         } else if (symbol.equals("Clear")) {
@@ -63,6 +66,9 @@ public class MainWindowController {
                 case "Minus" -> operator = "-";
                 case "Multiply" -> operator = "*";
                 case "Divide" -> operator = "/";
+                case "PowerOf" -> operator = "^";
+                case "RootOf" -> operator = "√";
+                case "Percent" -> operator = "%";
             }
             num1 = Double.parseDouble(lblResult.getText());
             lblResult.setText(String.valueOf(0.0));
