@@ -31,7 +31,10 @@ public class MainWindowController {
 
     @FXML
     void onNumberClicked(MouseEvent event) {
-
+        // get the value of clicked number button by parsing the int from the id - the "btn" prefix.
+        int value = Integer.parseInt(((Pane)event.getSource()).getId().replace("btn", ""));
+        // Update the lblResult label to display the number selected.
+        lblResult.setText(Double.parseDouble(lblResult.getText())==0?String.valueOf((double)value):String.valueOf(Double.parseDouble(lblResult.getText())*10+value));
     }
 
     @FXML
