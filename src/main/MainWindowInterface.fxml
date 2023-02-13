@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -65,26 +66,224 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="1" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="2" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="3" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="4" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.rowIndex="1" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.rowIndex="2" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.rowIndex="3" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight">
+                     <children>
+                        <Label fx:id="lblResult1" alignment="CENTER" layoutX="2.0" layoutY="22.0" prefHeight="50.0" prefWidth="102.0" text="7" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="1">
+                     <children>
+                        <Label fx:id="lblResult11" alignment="CENTER" layoutX="1.0" layoutY="26.0" prefHeight="50.0" prefWidth="102.0" text="8" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="2">
+                     <children>
+                        <Label fx:id="lblResult111" alignment="CENTER" layoutX="1.0" layoutY="26.0" prefHeight="50.0" prefWidth="102.0" text="9" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3">
+                     <children>
+                        <Label fx:id="lblResult1221111" alignment="CENTER" layoutX="-2.0" layoutY="32.0" prefHeight="50.0" prefWidth="102.0" text="." textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <styleClass>
+                        <String fx:value="highlight" />
+                        <String fx:value="symbol" />
+                     </styleClass>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4">
+                     <children>
+                        <Label fx:id="lblResult12211111" alignment="CENTER" layoutX="-2.0" layoutY="27.0" prefHeight="50.0" prefWidth="102.0" text="\%" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <styleClass>
+                        <String fx:value="highlight" />
+                        <String fx:value="symbol" />
+                     </styleClass>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.rowIndex="1">
+                     <children>
+                        <Label fx:id="lblResult12" alignment="CENTER" layoutX="1.0" layoutY="26.0" prefHeight="50.0" prefWidth="102.0" text="4" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <Label fx:id="lblResult121" alignment="CENTER" layoutX="2.0" layoutY="24.0" prefHeight="50.0" prefWidth="102.0" text="5" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <children>
+                        <Label fx:id="lblResult1211" alignment="CENTER" layoutX="1.0" layoutY="26.0" prefHeight="50.0" prefWidth="102.0" text="6" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <children>
+                        <Label fx:id="lblResult12111" alignment="CENTER" layoutY="25.0" prefHeight="50.0" prefWidth="102.0" text="*" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <styleClass>
+                        <String fx:value="symbol" />
+                        <String fx:value="highlight" />
+                     </styleClass>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <children>
+                        <Label fx:id="lblResult121111" alignment="CENTER" layoutX="1.0" layoutY="28.0" prefHeight="50.0" prefWidth="102.0" text="/" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <styleClass>
+                        <String fx:value="symbol" />
+                        <String fx:value="highlight" />
+                     </styleClass>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.rowIndex="2">
+                     <children>
+                        <Label fx:id="lblResult122" alignment="CENTER" layoutX="4.0" layoutY="22.0" prefHeight="50.0" prefWidth="102.0" text="1" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <children>
+                        <Label fx:id="lblResult1221" alignment="CENTER" layoutX="2.0" layoutY="24.0" prefHeight="50.0" prefWidth="102.0" text="2" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <children>
+                        <Label fx:id="lblResult12211" alignment="CENTER" layoutX="1.0" layoutY="25.0" prefHeight="50.0" prefWidth="102.0" text="3" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <children>
+                        <Label fx:id="lblResult121112" alignment="CENTER" layoutY="26.0" prefHeight="50.0" prefWidth="102.0" text="+" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <styleClass>
+                        <String fx:value="highlight" />
+                        <String fx:value="symbol" />
+                     </styleClass>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <children>
+                        <Label fx:id="lblResult1211111" alignment="CENTER" layoutX="-4.0" layoutY="23.0" prefHeight="50.0" prefWidth="102.0" text="-" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <styleClass>
+                        <String fx:value="highlight" />
+                        <String fx:value="symbol" />
+                     </styleClass>
+                  </Pane>
+                  <Pane id="clear" prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.rowIndex="3">
+                     <children>
+                        <Label fx:id="lblResult11111" alignment="CENTER" layoutX="4.0" layoutY="25.0" prefHeight="50.0" prefWidth="102.0" text="Clear" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <children>
+                        <Label fx:id="lblResult122111" alignment="CENTER" layoutX="1.0" layoutY="25.0" prefHeight="50.0" prefWidth="102.0" text="0" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane id="extra" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <styleClass>
+                        <String fx:value="highlight" />
+                        <String fx:value="extra" />
+                        <String fx:value="symbol" />
+                     </styleClass>
+                     <children>
+                        <Label fx:id="lblResult1111" alignment="CENTER" layoutX="1.0" layoutY="25.0" prefHeight="50.0" prefWidth="102.0" text="x^y" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane id="extra" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <styleClass>
+                        <String fx:value="highlight" />
+                        <String fx:value="extra" />
+                        <String fx:value="symbol" />
+                     </styleClass>
+                     <children>
+                        <Label fx:id="lblResult11112" alignment="CENTER" layoutX="1.0" layoutY="25.0" prefHeight="50.0" prefWidth="102.0" text="y root" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane id="equals" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <children>
+                        <Label fx:id="lblResult12111111" alignment="CENTER" layoutY="25.0" prefHeight="50.0" prefWidth="102.0" text="=" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Menlo Regular" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <styleClass>
+                        <String fx:value="highlight" />
+                        <String fx:value="extra" />
+                     </styleClass>
+                  </Pane>
                </children>
             </GridPane>
          </children></Pane>

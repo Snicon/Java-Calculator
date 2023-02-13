@@ -3,6 +3,7 @@ package main;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
@@ -26,5 +27,15 @@ public class MainWindowController {
         btnClose.setOnMouseClicked(mouseEvent -> stage.close());
         // setIconified => Hide/minimize the application.
         btnMinimize.setOnMouseClicked(mouseEvent -> stage.setIconified(true));
+    }
+
+    @FXML
+    void onNumberClicked(MouseEvent event) {
+
+    }
+
+    @FXML
+    void onSymbolClicked(MouseEvent event) {
+
     }
 }
