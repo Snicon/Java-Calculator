@@ -54,6 +54,7 @@ public class MainWindowController {
                 case "^" -> lblResult.setText((Math.pow(num1, num2)) + "");
                 case "√" -> lblResult.setText(String.valueOf(Math.round(Math.pow(num1, 1.0 / num2))));
                 case "%" -> lblResult.setText(Math.round((num1/num2) * 100) + "%");
+                // todo: Add support for decimals
             }
             operator = ".";
         } else if (symbol.equals("Clear")) {
@@ -69,6 +70,7 @@ public class MainWindowController {
                 case "PowerOf" -> operator = "^";
                 case "RootOf" -> operator = "√";
                 case "Percent" -> operator = "%";
+                // todo: Add support for decimals
             }
             num1 = Double.parseDouble(lblResult.getText());
             lblResult.setText(String.valueOf(0.0));
