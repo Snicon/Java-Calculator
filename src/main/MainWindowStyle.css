@@ -15,19 +15,19 @@
 .highlight:hover {
     -fx-background-color: rgba(43, 43, 43, 0.10);
 }
-.highlight.symbol {
+.symbol {
     -fx-background-radius: 0 25;
     -fx-background-color: rgba(0, 60, 255, 0.5);
 }
-.highlight#clear {
+.clear {
     -fx-background-color: rgba(255, 49, 49, 0.50);
 }
-.highlight#equals {
+.equals {
     -fx-background-color: rgba(63, 255, 49, 0.75);
 }
-.highlight#clear, .highlight#equals {
+.clear, .equals {
     -fx-background-radius: 25;
 }
-#extra {
+.extra {
     -fx-background-color: rgba(223, 0, 255, 0.50);
 }

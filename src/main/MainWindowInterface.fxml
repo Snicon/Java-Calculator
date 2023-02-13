@@ -225,7 +225,7 @@
                         <String fx:value="symbol" />
                      </styleClass>
                   </Pane>
-                  <Pane id="clear" fx:id="btnClear" onMouseClicked="#onSymbolClicked" prefHeight="200.0" prefWidth="200.0" styleClass="highlight" GridPane.rowIndex="3">
+                  <Pane fx:id="btnClear" onMouseClicked="#onSymbolClicked" prefHeight="200.0" prefWidth="200.0" styleClass="clear" GridPane.rowIndex="3">
                      <children>
                         <Label fx:id="lblResult11111" alignment="CENTER" layoutX="4.0" layoutY="25.0" prefHeight="50.0" prefWidth="102.0" text="Clear" textAlignment="CENTER" textFill="WHITE">
                            <font>
@@ -243,9 +243,8 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane id="extra" fx:id="btnPowerOf" onMouseClicked="#onSymbolClicked" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                  <Pane fx:id="btnPowerOf" onMouseClicked="#onSymbolClicked" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <styleClass>
-                        <String fx:value="highlight" />
                         <String fx:value="extra" />
                         <String fx:value="symbol" />
                      </styleClass>
@@ -257,11 +256,10 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane id="extra" fx:id="btnRootOf" onMouseClicked="#onSymbolClicked" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                  <Pane fx:id="btnRootOf" onMouseClicked="#onSymbolClicked" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
                      <styleClass>
-                        <String fx:value="highlight" />
-                        <String fx:value="extra" />
                         <String fx:value="symbol" />
+                        <String fx:value="extra" />
                      </styleClass>
                      <children>
                         <Label fx:id="lblResult11112" alignment="CENTER" layoutX="1.0" layoutY="25.0" prefHeight="50.0" prefWidth="102.0" text="y root" textAlignment="CENTER" textFill="WHITE">
@@ -271,7 +269,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane id="equals" fx:id="btnEquals" onMouseClicked="#onSymbolClicked" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                  <Pane fx:id="btnEquals" onMouseClicked="#onSymbolClicked" prefHeight="200.0" prefWidth="200.0" styleClass="equals" GridPane.columnIndex="4" GridPane.rowIndex="3">
                      <children>
                         <Label fx:id="lblResult12111111" alignment="CENTER" layoutY="25.0" prefHeight="50.0" prefWidth="102.0" text="=" textAlignment="CENTER" textFill="WHITE">
                            <font>
@@ -279,10 +277,6 @@
                            </font>
                         </Label>
                      </children>
-                     <styleClass>
-                        <String fx:value="highlight" />
-                        <String fx:value="extra" />
-                     </styleClass>
                   </Pane>
                </children>
             </GridPane>
