@@ -1,4 +1,4 @@
-package main;
+package rip.snicon.calculator.v2;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

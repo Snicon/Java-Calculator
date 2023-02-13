@@ -1,4 +1,4 @@
-package main;
+package rip.snicon.calculator.v2;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

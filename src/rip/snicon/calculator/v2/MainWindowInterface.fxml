@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="650.0" prefWidth="600.0" stylesheets="@MainWindowStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainWindowController">
+<AnchorPane prefHeight="650.0" prefWidth="600.0" stylesheets="@MainWindowStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rip.snicon.calculator.v2.MainWindowController">
    <children>
       <Pane fx:id="titlePane" prefHeight="32.0" prefWidth="600.0">
          <children>
