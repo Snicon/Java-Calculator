@@ -17,12 +17,12 @@
          <children>
             <ImageView fx:id="btnClose" fitHeight="16.0" fitWidth="16.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/close.png" />
+                  <Image url="@../../../../images/close.png" />
                </image>
             </ImageView>
             <ImageView fx:id="btnMinimize" fitHeight="16.0" fitWidth="16.0" layoutX="37.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/hide.png" />
+                  <Image url="@../../../../images/hide.png" />
                </image>
             </ImageView>
             <Label layoutX="475.0" layoutY="8.0" text="Kalkylator (v2)" textFill="WHITE">
@@ -32,7 +32,7 @@
             </Label>
             <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="570.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/icon.png" />
+                  <Image url="@../../../../images/icon.png" />
                </image>
             </ImageView>
             <Label layoutX="208.0" layoutY="8.0" text="Senast uppdaterad: 2023-02-08" textFill="WHITE">
